@@ -9,7 +9,7 @@ namespace TestProject
     public class WorkingWithStringAssert
     {
         [TestMethod]
-        public void VerilenStringiIceriyormu()
+        public void VerilenStringiIceriyormu() 
         {
             StringAssert.Contains("merhaba dunya ben burak", "en");
         }
